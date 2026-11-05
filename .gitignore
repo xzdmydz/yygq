@@ -1,0 +1,45 @@
+# Unity 生成的缓存与库文件（会自动重新生成）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/[Rr]ecordings/
+
+# 永不忽略 Asset 的 meta 文件（Unity 必需）
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio / Rider 缓存
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+
+# 自动生成的 IDE 解决方案与工程文件
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+unity.vscode*.json
+*.unityproj
+
+# Unity 崩溃报告
+sysinfo.txt
+
+# 构建产物
+*.apk
+*.aab
+*.unitypackage
+*.app

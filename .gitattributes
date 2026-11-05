@@ -1,0 +1,53 @@
+# 统一换行符与二进制文件声明（Unity 项目标准配置）
+* text=auto
+
+# 文本类源文件
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+*.json text
+*.md text
+*.txt text
+*.csproj text
+*.sln text
+
+# Unity YAML 资源统一用 LF，避免跨平台换行符冲突
+*.anim text eol=lf
+*.asset text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.physicsMaterial2D text eol=lf
+*.prefab text eol=lf
+*.unity text eol=lf
+*.inputactions text eol=lf
+*.renderTexture text eol=lf
+
+# 二进制文件（禁止合并与换行转换）
+*.dll binary
+*.exe binary
+*.pdb binary
+*.mdb binary
+*.so binary
+*.dylib binary
+*.jar binary
+*.unitypackage binary
+
+# 图片与音频
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.psd binary
+*.tga binary
+*.ico binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.aif binary
+*.aiff binary
+
+# 字体
+*.ttf binary
+*.otf binary
